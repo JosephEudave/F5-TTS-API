@@ -1,0 +1,202 @@
+Metadata-Version: 2.4
+Name: f5-tts
+Version: 1.1.4
+Summary: F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
+License: MIT License
+Project-URL: Homepage, https://github.com/josepheudave/F5-TTS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: accelerate>=0.33.0
+Requires-Dist: bitsandbytes>0.37.0; platform_machine != "arm64" and platform_system != "Darwin"
+Requires-Dist: cached_path
+Requires-Dist: click>=8.2.0
+Requires-Dist: datasets
+Requires-Dist: ema_pytorch>=0.5.2
+Requires-Dist: fastapi==0.115.12
+Requires-Dist: gradio>=3.45.2
+Requires-Dist: huggingface_hub>=0.21.0
+Requires-Dist: hydra-core>=1.3.0
+Requires-Dist: inflect
+Requires-Dist: jieba
+Requires-Dist: librosa
+Requires-Dist: matplotlib
+Requires-Dist: num2words>=0.5.13
+Requires-Dist: numpy==2.2.5
+Requires-Dist: pydantic==2.11.4
+Requires-Dist: pydub
+Requires-Dist: pypinyin
+Requires-Dist: pyyaml==6.0.2
+Requires-Dist: python-dotenv
+Requires-Dist: python-multipart==0.0.20
+Requires-Dist: safetensors==0.5.3
+Requires-Dist: sounddevice
+Requires-Dist: soundfile
+Requires-Dist: starlette==0.46.2
+Requires-Dist: tomli>=0.10.2
+Requires-Dist: tomli-w==1.2.0
+Requires-Dist: torch>=2.7.0; platform_system != "Darwin"
+Requires-Dist: torchvision>=0.22.0; platform_system != "Darwin"
+Requires-Dist: torchaudio>=2.7.0; platform_system != "Darwin"
+Requires-Dist: torchdiffeq
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: transformers
+Requires-Dist: transformers_stream_generator
+Requires-Dist: uvicorn==0.34.2
+Requires-Dist: vocos
+Requires-Dist: wandb
+Requires-Dist: websockets>=11.0.3
+Requires-Dist: x_transformers>=1.31.14
+Requires-Dist: toml
+Provides-Extra: eval
+Requires-Dist: faster_whisper==0.10.1; extra == "eval"
+Requires-Dist: funasr; extra == "eval"
+Requires-Dist: jiwer; extra == "eval"
+Requires-Dist: modelscope; extra == "eval"
+Requires-Dist: zhconv; extra == "eval"
+Requires-Dist: zhon; extra == "eval"
+Dynamic: license-file
+
+# F5-TTS WebSocket API Implementation
+
+This is a WebSocket API implementation for F5-TTS that allows other programs to access TTS services through a WebSocket interface.
+
+## ⚠️ Important Notes
+
+### Platform Support
+- **Windows**: Fully tested and supported
+- **Linux**: Not fully tested, may require modifications to scripts and paths
+- **macOS**: Not tested
+
+### Work in Progress
+Flash Attention 2 integration is currently under development and not functional. This feature will be added in future updates to improve performance.
+
+## Windows Installation (Recommended)
+
+```bash
+# Run the Windows installation script
+setup.bat
+```
+This script will:
+- Set up the required environment
+- Install dependencies
+- Configure the project for API usage
+
+## Usage on Windows
+
+### Starting the API Server
+```bash
+# Launch the WebSocket API server
+tts-api.bat
+```
+
+The server will start on `ws://localhost:8000` by default.
+
+### Testing the API
+```bash
+# Run the test script
+test_api.bat
+```
+
+## Linux Support
+If you want to run this on Linux, you'll need to:
+1. Convert the `.bat` scripts to `.sh` scripts
+2. Modify file paths to use forward slashes
+3. Adjust environment setup commands
+4. Test the WebSocket implementation in your environment
+
+We welcome contributions to improve Linux support!
+
+## WebSocket Protocol
+
+### Messages Format
+
+#### Client to Server:
+```json
+{
+    "type": "tts_request",
+    "data": {
+        "text": "Text to synthesize",
+        "reference_audio": "base64_encoded_audio",
+        "config": {
+            // Optional configuration parameters
+        }
+    }
+}
+```
+
+#### Server to Client:
+```json
+{
+    "type": "tts_response",
+    "data": {
+        "audio": "base64_encoded_audio",
+        "status": "success",
+        "message": "Optional status message"
+    }
+}
+```
+
+## Configuration
+
+### Custom TOML Configuration
+The system uses TOML files for configuration. Here's an example structure:
+
+```toml
+# Model selection
+model = "F5TTS_Base"
+
+# Audio input/output settings
+ref_audio = "reference/reference.wav"
+ref_text = "Reference text for the audio"
+gen_text = "Text to be generated"
+
+# Optional settings
+remove_silence = false
+output_dir = "tests"
+output_file = "output.wav"
+```
+
+## Project Structure
+
+```
+F5-TTS/
+├── api/                 # WebSocket API implementation
+├── tests/              # Test files and output directory
+├── reference/          # Reference audio files
+├── setup.bat           # Windows installation script
+├── test_api.bat        # Windows API testing script
+├── tts-api.bat         # Windows server startup script
+└── custom.toml         # Configuration file
+```
+
+### Directory Usage:
+- `api/`: Contains the WebSocket server implementation
+- `tests/`: Used for storing test outputs and test scripts
+- `reference/`: Stores reference audio files for TTS generation
+
+## Error Handling
+
+The API includes robust error handling for common scenarios:
+- Invalid audio format
+- Missing configuration
+- Server connection issues
+- Processing errors
+
+## Contributing
+
+Feel free to contribute to this project by:
+1. Forking the repository
+2. Creating a feature branch
+3. Submitting a pull request
+
+We especially welcome contributions for:
+- Linux support improvements
+- macOS compatibility
+- Cross-platform testing
+
+## License
+
+This project is licensed under the MIT License.

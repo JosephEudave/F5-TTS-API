@@ -1,0 +1,24 @@
+# Spanish model test configuration
+model = "F5TTS_Base"
+# Path to your Spanish model checkpoint
+model_path = "C:/Users/User/Desktop/model_1200000.safetensors"
+# Path to your Spanish vocabulary file
+vocab_path = "C:/Users/User/Desktop/vocab.txt"
+# Path to transformer configuration
+transformer_config_path = "C:/Users/User/Desktop/transformer_config.yaml"
+# Reference audio file path
+ref_audio = "C:/Users/User/Desktop/14seconds.wav"
+# Reference text transcription
+ref_text = "Y por eso mismo es que su trabajo, apego a los valores y constancia diarias, les hacen destacar entre sus compañeros. porque así sabemos que estamos en la misma órbita. Felizmente, para los primeros dos trimestres de 2022..."
+# Text to generate
+gen_text = "La inteligencia artificial está transformando la forma en que interactuamos con la tecnología."
+# Remove silence from generated audio
+remove_silence = true
+# Output directory
+output_dir = "tests"
+# Output filename
+output_file = "spanish_test_output.wav"
+# Debug mode
+debug = true
+# Language setting
+language = "es" 

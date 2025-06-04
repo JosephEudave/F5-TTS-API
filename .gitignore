@@ -1,0 +1,46 @@
+# Python virtual environment
+.venv/
+__pycache__/
+
+# Model and checkpoint directories
+models/
+checkpoints/
+flash-attention/
+output/
+triton/
+
+# LFS tracked files
+*.7z
+*.arrow
+*.bin
+*.bz2
+*.ckpt
+*.ftz
+*.gz
+*.h5
+*.joblib
+*.lfs.*
+*.mlmodel
+*.model
+*.msgpack
+*.npy
+*.npz
+*.onnx
+*.ot
+*.parquet
+*.pb
+*.pickle
+*.pkl
+*.pt
+*.pth
+*.rar
+*.safetensors
+saved_model/**/*
+*.tar.*
+*.tflite
+*.tgz
+*.wasm
+*.xz
+*.zip
+*.zst
+*tfevents*

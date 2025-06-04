@@ -1,0 +1,17 @@
+# F5-TTS Configuration
+
+# Model paths
+MODEL_DIR=checkpoints
+REFERENCE_DIR=reference
+OUTPUT_DIR=output
+
+# Default files
+DEFAULT_REF_AUDIO=reference.wav
+DEFAULT_OUTPUT=output.wav
+
+# Default text
+DEFAULT_TEXT=probando 1 2 3
+
+# Model settings
+MODEL_NAME=F5TTS_Base
+SAMPLE_RATE=24000 
