@@ -1,4 +1,4 @@
-accelerate>=0.33.0
+accelerate!=1.7.0,>=0.33.0
 cached_path
 click>=8.2.0
 datasets

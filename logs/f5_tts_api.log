@@ -2303,3 +2303,380 @@ starlette.websockets.WebSocketDisconnect
 2025-06-04 17:07:47,617 - f5_tts - INFO - Sent 'done' message to client 2520567618240
 2025-06-04 17:08:35,139 - f5_tts - INFO - Client 2520567618240 should reconnect from their end
 2025-06-04 17:08:35,140 - f5_tts - INFO - Client 2520567618240 disconnected
+2025-06-04 17:16:25,337 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-04 17:16:25,338 - f5_tts - INFO - Using device: cuda
+2025-06-04 17:16:25,339 - f5_tts - INFO - CUDA available: True
+2025-06-04 17:16:25,340 - f5_tts - INFO - CUDA version: 12.8
+2025-06-04 17:16:25,340 - f5_tts - INFO - Device count: 1
+2025-06-04 17:16:25,345 - f5_tts - INFO - Current device: 0
+2025-06-04 17:16:25,345 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-04 17:16:29,635 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-04 17:16:29,635 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-04 17:16:29,636 - f5_tts - INFO - Model device: cuda:0
+2025-06-04 17:16:29,636 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-04 17:16:29,636 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-04 17:16:29,637 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-04 17:16:29,645 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-04 17:18:10,070 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-04 17:18:10,071 - f5_tts - INFO - Using device: cuda
+2025-06-04 17:18:10,071 - f5_tts - INFO - CUDA available: True
+2025-06-04 17:18:10,071 - f5_tts - INFO - CUDA version: 12.8
+2025-06-04 17:18:10,072 - f5_tts - INFO - Device count: 1
+2025-06-04 17:18:10,075 - f5_tts - INFO - Current device: 0
+2025-06-04 17:18:10,076 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-04 17:18:14,110 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-04 17:18:14,110 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-04 17:18:14,111 - f5_tts - INFO - Model device: cuda:0
+2025-06-04 17:18:14,111 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-04 17:18:14,111 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-04 17:18:14,112 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-04 17:18:14,117 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-04 17:18:14,243 - f5_tts - INFO - Client 2703695265040 connected
+2025-06-04 17:18:19,053 - f5_tts - INFO - Sent 'talking' message to client 2703695265040
+2025-06-04 17:18:21,852 - f5_tts - INFO - Sent 'done' message to client 2703695265040
+2025-06-04 17:19:00,942 - f5_tts - INFO - Client 2703695265040 should reconnect from their end
+2025-06-04 17:19:00,942 - f5_tts - INFO - Client 2703695265040 disconnected
+2025-06-04 17:19:13,840 - f5_tts - INFO - Client 2712812060896 connected
+2025-06-04 17:19:16,859 - f5_tts - INFO - Sent 'talking' message to client 2712812060896
+2025-06-04 17:19:22,382 - f5_tts - INFO - Sent 'done' message to client 2712812060896
+2025-06-04 17:19:37,157 - f5_tts - INFO - Sent 'talking' message to client 2712812060896
+2025-06-04 17:19:40,494 - f5_tts - INFO - Sent 'done' message to client 2712812060896
+2025-06-04 17:20:23,106 - f5_tts - INFO - Sent 'talking' message to client 2712812060896
+2025-06-04 17:20:28,992 - f5_tts - INFO - Sent 'done' message to client 2712812060896
+2025-06-04 17:20:41,371 - f5_tts - INFO - Sent 'talking' message to client 2712812060896
+2025-06-04 17:20:48,561 - f5_tts - INFO - Sent 'done' message to client 2712812060896
+2025-06-04 17:21:22,278 - f5_tts - INFO - Client 2712812060896 should reconnect from their end
+2025-06-04 17:21:22,278 - f5_tts - INFO - Client 2712812060896 disconnected
+2025-06-04 17:22:12,452 - f5_tts - INFO - Client 2712812065984 connected
+2025-06-04 17:22:15,738 - f5_tts - INFO - Sent 'talking' message to client 2712812065984
+2025-06-04 17:22:21,718 - f5_tts - INFO - Sent 'done' message to client 2712812065984
+2025-06-04 17:22:36,489 - f5_tts - INFO - Sent 'talking' message to client 2712812065984
+2025-06-04 17:22:40,097 - f5_tts - INFO - Sent 'done' message to client 2712812065984
+2025-06-04 17:23:17,949 - f5_tts - INFO - Sent 'talking' message to client 2712812065984
+2025-06-04 17:23:26,914 - f5_tts - INFO - Sent 'done' message to client 2712812065984
+2025-06-04 17:23:42,622 - f5_tts - INFO - Sent 'talking' message to client 2712812065984
+2025-06-04 17:23:58,683 - f5_tts - INFO - Sent 'done' message to client 2712812065984
+2025-06-04 17:24:13,486 - f5_tts - INFO - Sent 'talking' message to client 2712812065984
+2025-06-04 17:24:17,084 - f5_tts - INFO - Sent 'done' message to client 2712812065984
+2025-06-04 17:25:02,928 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-04 17:25:02,928 - f5_tts - INFO - Using device: cuda
+2025-06-04 17:25:02,929 - f5_tts - INFO - CUDA available: True
+2025-06-04 17:25:02,929 - f5_tts - INFO - CUDA version: 12.8
+2025-06-04 17:25:02,929 - f5_tts - INFO - Device count: 1
+2025-06-04 17:25:02,933 - f5_tts - INFO - Current device: 0
+2025-06-04 17:25:02,933 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-04 17:25:06,335 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-04 17:25:06,335 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-04 17:25:06,335 - f5_tts - INFO - Model device: cuda:0
+2025-06-04 17:25:06,335 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-04 17:25:06,336 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-04 17:25:06,336 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-04 17:25:06,337 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-04 17:25:06,672 - f5_tts - INFO - Client 2828260972816 connected
+2025-06-04 17:25:11,373 - f5_tts - INFO - Sent 'talking' message to client 2828260972816
+2025-06-04 17:25:14,093 - f5_tts - INFO - Sent 'done' message to client 2828260972816
+2025-06-04 17:25:40,193 - f5_tts - INFO - Sent 'talking' message to client 2828260972816
+2025-06-04 17:25:48,164 - f5_tts - INFO - Sent 'done' message to client 2828260972816
+2025-06-04 17:26:00,540 - f5_tts - INFO - Sent 'talking' message to client 2828260972816
+2025-06-04 17:26:03,484 - f5_tts - INFO - Sent 'done' message to client 2828260972816
+2025-06-04 17:26:38,775 - f5_tts - INFO - Client 2828260972816 should reconnect from their end
+2025-06-04 17:26:38,776 - f5_tts - INFO - Client 2828260972816 disconnected
+2025-06-04 17:52:28,521 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-04 17:52:28,522 - f5_tts - INFO - Using device: cuda
+2025-06-04 17:52:28,522 - f5_tts - INFO - CUDA available: True
+2025-06-04 17:52:28,522 - f5_tts - INFO - CUDA version: 12.8
+2025-06-04 17:52:28,522 - f5_tts - INFO - Device count: 1
+2025-06-04 17:52:28,526 - f5_tts - INFO - Current device: 0
+2025-06-04 17:52:28,526 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-04 17:52:32,439 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-04 17:52:32,439 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-04 17:52:32,440 - f5_tts - INFO - Model device: cuda:0
+2025-06-04 17:52:32,440 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-04 17:52:32,440 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-04 17:52:32,440 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-04 17:52:32,447 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-04 17:52:32,820 - f5_tts - INFO - Client 2259693953360 connected
+2025-06-04 17:52:37,742 - f5_tts - INFO - Sent 'talking' message to client 2259693953360
+2025-06-04 17:52:40,535 - f5_tts - INFO - Sent 'done' message to client 2259693953360
+2025-06-04 17:53:23,820 - f5_tts - INFO - Client 2259693953360 should reconnect from their end
+2025-06-04 17:53:23,820 - f5_tts - INFO - Client 2259693953360 disconnected
+2025-06-04 18:04:01,859 - f5_tts - INFO - Client 2259694588400 connected
+2025-06-04 18:04:03,731 - f5_tts - INFO - Sent 'talking' message to client 2259694588400
+2025-06-04 18:04:06,994 - f5_tts - INFO - Sent 'done' message to client 2259694588400
+2025-06-04 18:04:25,069 - f5_tts - INFO - Sent 'talking' message to client 2259694588400
+2025-06-04 18:04:31,732 - f5_tts - INFO - Sent 'done' message to client 2259694588400
+2025-06-04 18:04:46,058 - f5_tts - INFO - Sent 'talking' message to client 2259694588400
+2025-06-04 18:04:49,632 - f5_tts - INFO - Sent 'done' message to client 2259694588400
+2025-06-04 18:05:32,974 - f5_tts - INFO - Client 2259694588400 should reconnect from their end
+2025-06-04 18:05:32,974 - f5_tts - INFO - Client 2259694588400 disconnected
+2025-06-04 18:22:16,819 - f5_tts - INFO - Client 2259694590032 connected
+2025-06-04 18:22:20,077 - f5_tts - INFO - Sent 'talking' message to client 2259694590032
+2025-06-04 18:22:25,914 - f5_tts - INFO - Sent 'done' message to client 2259694590032
+2025-06-04 18:22:40,490 - f5_tts - INFO - Sent 'talking' message to client 2259694590032
+2025-06-04 18:22:44,175 - f5_tts - INFO - Sent 'done' message to client 2259694590032
+2025-06-04 18:23:25,183 - f5_tts - INFO - Client 2259694590032 should reconnect from their end
+2025-06-04 18:23:25,183 - f5_tts - INFO - Client 2259694590032 disconnected
+2025-06-04 18:23:31,234 - f5_tts - INFO - Client 2259694592864 connected
+2025-06-04 18:23:33,870 - f5_tts - INFO - Sent 'talking' message to client 2259694592864
+2025-06-04 18:23:39,183 - f5_tts - INFO - Sent 'done' message to client 2259694592864
+2025-06-04 18:23:53,426 - f5_tts - INFO - Sent 'talking' message to client 2259694592864
+2025-06-04 18:23:56,663 - f5_tts - INFO - Sent 'done' message to client 2259694592864
+2025-06-04 18:24:44,625 - f5_tts - INFO - Client 2259694592864 should reconnect from their end
+2025-06-04 18:24:44,625 - f5_tts - INFO - Client 2259694592864 disconnected
+2025-06-04 18:38:12,408 - f5_tts - INFO - Client 2259694593008 connected
+2025-06-04 18:38:15,750 - f5_tts - INFO - Sent 'talking' message to client 2259694593008
+2025-06-04 18:38:19,877 - f5_tts - INFO - Sent 'done' message to client 2259694593008
+2025-06-04 18:38:34,306 - f5_tts - INFO - Sent 'talking' message to client 2259694593008
+2025-06-04 18:38:37,903 - f5_tts - INFO - Sent 'done' message to client 2259694593008
+2025-06-04 18:39:11,680 - f5_tts - INFO - Sent 'talking' message to client 2259694593008
+2025-06-04 18:39:16,344 - f5_tts - INFO - Sent 'done' message to client 2259694593008
+2025-06-04 18:39:30,413 - f5_tts - INFO - Sent 'talking' message to client 2259694593008
+2025-06-04 18:39:33,994 - f5_tts - INFO - Sent 'done' message to client 2259694593008
+2025-06-04 18:40:27,120 - f5_tts - INFO - Client 2259694593008 should reconnect from their end
+2025-06-04 18:40:27,123 - f5_tts - INFO - Client 2259694593008 disconnected
+2025-06-04 18:40:32,789 - f5_tts - INFO - Client 2259694594160 connected
+2025-06-04 18:40:35,607 - f5_tts - INFO - Sent 'talking' message to client 2259694594160
+2025-06-04 18:40:43,351 - f5_tts - INFO - Sent 'done' message to client 2259694594160
+2025-06-04 18:40:56,521 - f5_tts - INFO - Sent 'talking' message to client 2259694594160
+2025-06-04 18:41:00,208 - f5_tts - INFO - Sent 'done' message to client 2259694594160
+2025-06-04 18:41:43,829 - f5_tts - INFO - Client 2259694594160 should reconnect from their end
+2025-06-04 18:41:43,830 - f5_tts - INFO - Client 2259694594160 disconnected
+2025-06-04 18:42:10,701 - f5_tts - INFO - Client 2259694590800 connected
+2025-06-04 18:42:13,647 - f5_tts - INFO - Sent 'talking' message to client 2259694590800
+2025-06-04 18:42:18,203 - f5_tts - INFO - Sent 'done' message to client 2259694590800
+2025-06-04 18:42:32,565 - f5_tts - INFO - Sent 'talking' message to client 2259694590800
+2025-06-04 18:42:35,904 - f5_tts - INFO - Sent 'done' message to client 2259694590800
+2025-06-04 18:42:51,256 - f5_tts - INFO - Sent 'talking' message to client 2259694590800
+2025-06-04 18:42:55,034 - f5_tts - INFO - Sent 'done' message to client 2259694590800
+2025-06-04 18:43:09,516 - f5_tts - INFO - Sent 'talking' message to client 2259694590800
+2025-06-04 18:43:13,101 - f5_tts - INFO - Sent 'done' message to client 2259694590800
+2025-06-04 18:44:03,739 - f5_tts - INFO - Client 2259694590800 should reconnect from their end
+2025-06-04 18:44:03,739 - f5_tts - INFO - Client 2259694590800 disconnected
+2025-06-04 19:00:54,411 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-04 19:00:54,411 - f5_tts - INFO - Using device: cuda
+2025-06-04 19:00:54,412 - f5_tts - INFO - CUDA available: True
+2025-06-04 19:00:54,412 - f5_tts - INFO - CUDA version: 12.8
+2025-06-04 19:00:54,412 - f5_tts - INFO - Device count: 1
+2025-06-04 19:00:54,414 - f5_tts - INFO - Current device: 0
+2025-06-04 19:00:54,415 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-04 19:00:57,236 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-04 19:00:57,237 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-04 19:00:57,237 - f5_tts - INFO - Model device: cuda:0
+2025-06-04 19:00:57,237 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-04 19:00:57,237 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-04 19:00:57,238 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-04 19:00:57,243 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-04 19:00:57,589 - f5_tts - INFO - Client 2448670497184 connected
+2025-06-04 19:01:02,099 - f5_tts - INFO - Sent 'talking' message to client 2448670497184
+2025-06-04 19:01:04,816 - f5_tts - INFO - Sent 'done' message to client 2448670497184
+2025-06-04 19:01:43,190 - f5_tts - INFO - Sent 'talking' message to client 2448670497184
+2025-06-04 19:01:50,244 - f5_tts - INFO - Sent 'done' message to client 2448670497184
+2025-06-04 19:02:04,515 - f5_tts - INFO - Sent 'talking' message to client 2448670497184
+2025-06-04 19:02:07,754 - f5_tts - INFO - Sent 'done' message to client 2448670497184
+2025-06-04 19:03:00,186 - f5_tts - INFO - Client 2448670497184 should reconnect from their end
+2025-06-04 19:03:00,186 - f5_tts - INFO - Client 2448670497184 disconnected
+2025-06-04 19:03:18,573 - f5_tts - INFO - Client 2448465694160 connected
+2025-06-04 19:03:21,514 - f5_tts - INFO - Sent 'talking' message to client 2448465694160
+2025-06-04 19:03:33,565 - f5_tts - INFO - Sent 'done' message to client 2448465694160
+2025-06-04 19:03:46,631 - f5_tts - INFO - Sent 'talking' message to client 2448465694160
+2025-06-04 19:03:58,593 - f5_tts - INFO - Sent 'done' message to client 2448465694160
+2025-06-04 19:04:15,085 - f5_tts - INFO - Sent 'talking' message to client 2448465694160
+2025-06-04 19:04:33,504 - f5_tts - INFO - Sent 'done' message to client 2448465694160
+2025-06-04 19:05:04,659 - f5_tts - INFO - Sent 'talking' message to client 2448465694160
+2025-06-04 19:05:56,904 - f5_tts - INFO - Sent 'done' message to client 2448465694160
+2025-06-04 19:06:11,272 - f5_tts - INFO - Sent 'talking' message to client 2448465694160
+2025-06-04 19:06:14,984 - f5_tts - INFO - Sent 'done' message to client 2448465694160
+2025-06-04 19:07:15,840 - f5_tts - INFO - Client 2448465694160 should reconnect from their end
+2025-06-04 19:07:15,840 - f5_tts - INFO - Client 2448465694160 disconnected
+2025-06-04 19:10:40,356 - f5_tts - INFO - Client 2448465698048 connected
+2025-06-04 19:10:43,369 - f5_tts - INFO - Sent 'talking' message to client 2448465698048
+2025-06-04 19:10:47,595 - f5_tts - INFO - Sent 'done' message to client 2448465698048
+2025-06-04 19:11:04,584 - f5_tts - INFO - Sent 'talking' message to client 2448465698048
+2025-06-04 19:11:22,056 - f5_tts - INFO - Sent 'done' message to client 2448465698048
+2025-06-04 19:11:36,434 - f5_tts - INFO - Sent 'talking' message to client 2448465698048
+2025-06-04 19:11:39,696 - f5_tts - INFO - Sent 'done' message to client 2448465698048
+2025-06-04 19:12:33,058 - f5_tts - INFO - Client 2448465698048 should reconnect from their end
+2025-06-04 19:12:33,058 - f5_tts - INFO - Client 2448465698048 disconnected
+2025-06-04 19:12:39,342 - f5_tts - INFO - Client 2448465699056 connected
+2025-06-04 19:12:42,617 - f5_tts - INFO - Sent 'talking' message to client 2448465699056
+2025-06-04 19:12:47,936 - f5_tts - INFO - Sent 'done' message to client 2448465699056
+2025-06-04 19:13:02,482 - f5_tts - INFO - Sent 'talking' message to client 2448465699056
+2025-06-04 19:13:05,736 - f5_tts - INFO - Sent 'done' message to client 2448465699056
+2025-06-04 19:13:17,081 - f5_tts - INFO - Sent 'talking' message to client 2448465699056
+2025-06-04 19:13:27,748 - f5_tts - INFO - Sent 'done' message to client 2448465699056
+2025-06-04 19:13:43,714 - f5_tts - INFO - Sent 'talking' message to client 2448465699056
+2025-06-04 19:13:51,006 - f5_tts - INFO - Sent 'done' message to client 2448465699056
+2025-06-04 19:14:34,902 - f5_tts - INFO - Client 2448465699056 should reconnect from their end
+2025-06-04 19:14:34,903 - f5_tts - INFO - Client 2448465699056 disconnected
+2025-06-04 19:17:07,940 - f5_tts - INFO - Client 2448465704768 connected
+2025-06-04 19:17:11,008 - f5_tts - INFO - Sent 'talking' message to client 2448465704768
+2025-06-04 19:17:19,030 - f5_tts - INFO - Sent 'done' message to client 2448465704768
+2025-06-04 19:17:32,983 - f5_tts - INFO - Sent 'talking' message to client 2448465704768
+2025-06-04 19:17:36,317 - f5_tts - INFO - Sent 'done' message to client 2448465704768
+2025-06-04 19:18:18,974 - f5_tts - INFO - Client 2448465704768 should reconnect from their end
+2025-06-04 19:18:18,975 - f5_tts - INFO - Client 2448465704768 disconnected
+2025-06-04 19:19:18,452 - f5_tts - INFO - Client 2451008258416 connected
+2025-06-04 19:19:21,418 - f5_tts - INFO - Sent 'talking' message to client 2451008258416
+2025-06-04 19:19:26,836 - f5_tts - INFO - Sent 'done' message to client 2451008258416
+2025-06-04 19:20:09,469 - f5_tts - INFO - Client 2451008258416 should reconnect from their end
+2025-06-04 19:20:09,469 - f5_tts - INFO - Client 2451008258416 disconnected
+2025-06-04 19:20:50,309 - f5_tts - INFO - Client 2451008260912 connected
+2025-06-04 19:20:53,238 - f5_tts - INFO - Sent 'talking' message to client 2451008260912
+2025-06-04 19:21:00,608 - f5_tts - INFO - Sent 'done' message to client 2451008260912
+2025-06-04 19:21:15,170 - f5_tts - INFO - Sent 'talking' message to client 2451008260912
+2025-06-04 19:21:18,757 - f5_tts - INFO - Sent 'done' message to client 2451008260912
+2025-06-04 19:22:01,370 - f5_tts - INFO - Client 2451008260912 should reconnect from their end
+2025-06-04 19:22:01,371 - f5_tts - INFO - Client 2451008260912 disconnected
+2025-06-10 09:17:56,736 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-10 09:17:56,737 - f5_tts - INFO - Using device: cuda
+2025-06-10 09:17:56,737 - f5_tts - INFO - CUDA available: True
+2025-06-10 09:17:56,738 - f5_tts - INFO - CUDA version: 12.8
+2025-06-10 09:17:56,738 - f5_tts - INFO - Device count: 1
+2025-06-10 09:17:56,742 - f5_tts - INFO - Current device: 0
+2025-06-10 09:17:56,742 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-10 09:18:00,680 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-10 09:18:00,680 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-10 09:18:00,680 - f5_tts - INFO - Model device: cuda:0
+2025-06-10 09:18:00,680 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-10 09:18:00,680 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-10 09:18:00,680 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-10 09:18:00,688 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-10 09:18:05,181 - f5_tts - INFO - Client 2918970043584 connected
+2025-06-10 09:18:10,103 - f5_tts - INFO - Sent 'talking' message to client 2918970043584
+2025-06-10 09:18:12,845 - f5_tts - INFO - Sent 'done' message to client 2918970043584
+2025-06-10 09:18:32,563 - f5_tts - INFO - Sent 'talking' message to client 2918970043584
+2025-06-10 09:18:44,040 - f5_tts - INFO - Sent 'done' message to client 2918970043584
+2025-06-10 09:19:02,352 - f5_tts - INFO - Sent 'talking' message to client 2918970043584
+2025-06-10 09:19:17,389 - f5_tts - INFO - Sent 'done' message to client 2918970043584
+2025-06-10 09:19:34,308 - f5_tts - INFO - Sent 'talking' message to client 2918970043584
+2025-06-10 09:19:44,179 - f5_tts - INFO - Sent 'done' message to client 2918970043584
+2025-06-10 09:19:58,355 - f5_tts - INFO - Sent 'talking' message to client 2918970043584
+2025-06-10 09:20:01,819 - f5_tts - INFO - Sent 'done' message to client 2918970043584
+2025-06-10 09:20:26,380 - f5_tts - INFO - Client 2918970043584 should reconnect from their end
+2025-06-10 09:20:26,381 - f5_tts - INFO - Client 2918970043584 disconnected
+2025-06-10 09:20:32,558 - f5_tts - INFO - Client 2918970694576 connected
+2025-06-10 09:20:38,806 - f5_tts - INFO - Sent 'talking' message to client 2918970694576
+2025-06-10 09:20:52,069 - f5_tts - INFO - Sent 'done' message to client 2918970694576
+2025-06-10 09:21:03,256 - f5_tts - INFO - Sent 'talking' message to client 2918970694576
+2025-06-10 09:21:10,369 - f5_tts - INFO - Sent 'done' message to client 2918970694576
+2025-06-10 09:21:26,277 - f5_tts - INFO - Sent 'talking' message to client 2918970694576
+2025-06-10 09:21:37,239 - f5_tts - INFO - Sent 'done' message to client 2918970694576
+2025-06-10 09:22:23,590 - f5_tts - INFO - Client 2918970694576 should reconnect from their end
+2025-06-10 09:22:23,591 - f5_tts - INFO - Client 2918970694576 disconnected
+2025-06-10 10:37:36,224 - f5_tts - INFO - Client 2918970695872 connected
+2025-06-10 10:37:38,878 - f5_tts - INFO - Sent 'talking' message to client 2918970695872
+2025-06-10 10:37:44,299 - f5_tts - INFO - Sent 'done' message to client 2918970695872
+2025-06-10 10:37:57,389 - f5_tts - INFO - Sent 'talking' message to client 2918970695872
+2025-06-10 10:38:02,318 - f5_tts - INFO - Sent 'done' message to client 2918970695872
+2025-06-10 10:38:48,565 - f5_tts - INFO - Client 2918970695872 should reconnect from their end
+2025-06-10 10:38:48,566 - f5_tts - INFO - Client 2918970695872 disconnected
+2025-06-10 10:43:33,173 - f5_tts - INFO - Client 2918970697408 connected
+2025-06-10 10:43:39,249 - f5_tts - INFO - Sent 'talking' message to client 2918970697408
+2025-06-10 10:43:51,769 - f5_tts - INFO - Sent 'done' message to client 2918970697408
+2025-06-10 10:44:05,323 - f5_tts - INFO - Sent 'talking' message to client 2918970697408
+2025-06-10 10:44:11,889 - f5_tts - INFO - Sent 'done' message to client 2918970697408
+2025-06-10 10:44:44,196 - f5_tts - INFO - Client 2918970697408 should reconnect from their end
+2025-06-10 10:44:44,197 - f5_tts - INFO - Client 2918970697408 disconnected
+2025-06-10 12:10:45,667 - f5_tts - INFO - Client 2918970692320 connected
+2025-06-10 12:10:47,661 - f5_tts - INFO - Sent 'talking' message to client 2918970692320
+2025-06-10 12:10:54,538 - f5_tts - INFO - Sent 'done' message to client 2918970692320
+2025-06-10 12:11:01,259 - f5_tts - INFO - Sent 'talking' message to client 2918970692320
+2025-06-10 12:11:04,547 - f5_tts - INFO - Sent 'done' message to client 2918970692320
+2025-06-10 12:11:16,726 - f5_tts - INFO - Sent 'talking' message to client 2918970692320
+2025-06-10 12:11:21,966 - f5_tts - INFO - Sent 'done' message to client 2918970692320
+2025-06-10 12:11:56,694 - f5_tts - INFO - Client 2918970692320 should reconnect from their end
+2025-06-10 12:11:56,695 - f5_tts - INFO - Client 2918970692320 disconnected
+2025-06-10 12:12:50,377 - f5_tts - INFO - Client 2921201440224 connected
+2025-06-10 12:12:56,765 - f5_tts - INFO - Sent 'talking' message to client 2921201440224
+2025-06-10 12:13:14,066 - f5_tts - INFO - Sent 'done' message to client 2921201440224
+2025-06-10 12:13:28,482 - f5_tts - INFO - Sent 'talking' message to client 2921201440224
+2025-06-10 12:13:31,766 - f5_tts - INFO - Sent 'done' message to client 2921201440224
+2025-06-10 12:14:21,461 - f5_tts - INFO - Client 2921201440224 should reconnect from their end
+2025-06-10 12:14:21,461 - f5_tts - INFO - Client 2921201440224 disconnected
+2025-06-10 12:14:39,097 - f5_tts - INFO - Client 2918970694288 connected
+2025-06-10 12:14:42,242 - f5_tts - INFO - Sent 'talking' message to client 2918970694288
+2025-06-10 12:14:49,117 - f5_tts - INFO - Sent 'done' message to client 2918970694288
+2025-06-10 12:15:05,435 - f5_tts - INFO - Sent 'talking' message to client 2918970694288
+2025-06-10 12:15:11,897 - f5_tts - INFO - Sent 'done' message to client 2918970694288
+2025-06-10 12:15:50,144 - f5_tts - INFO - Client 2918970694288 should reconnect from their end
+2025-06-10 12:15:50,145 - f5_tts - INFO - Client 2918970694288 disconnected
+2025-06-10 12:18:24,967 - f5_tts - INFO - Client 2921201440464 connected
+2025-06-10 12:18:28,215 - f5_tts - INFO - Sent 'talking' message to client 2921201440464
+2025-06-10 12:18:37,199 - f5_tts - INFO - Sent 'done' message to client 2921201440464
+2025-06-10 12:18:54,226 - f5_tts - INFO - Sent 'talking' message to client 2921201440464
+2025-06-10 12:19:06,717 - f5_tts - INFO - Sent 'done' message to client 2921201440464
+2025-06-10 12:19:26,177 - f5_tts - INFO - Sent 'talking' message to client 2921201440464
+2025-06-10 12:19:39,447 - f5_tts - INFO - Sent 'done' message to client 2921201440464
+2025-06-10 12:19:53,979 - f5_tts - INFO - Sent 'talking' message to client 2921201440464
+2025-06-10 12:19:57,557 - f5_tts - INFO - Sent 'done' message to client 2921201440464
+2025-06-10 12:20:15,525 - f5_tts - INFO - Sent 'talking' message to client 2921201440464
+2025-06-10 12:20:35,975 - f5_tts - INFO - Sent 'done' message to client 2921201440464
+2025-06-10 12:20:49,506 - f5_tts - INFO - Sent 'talking' message to client 2921201440464
+2025-06-10 12:20:59,689 - f5_tts - INFO - Sent 'done' message to client 2921201440464
+2025-06-10 12:21:40,683 - f5_tts - INFO - Client 2921201440464 should reconnect from their end
+2025-06-10 12:21:40,684 - f5_tts - INFO - Client 2921201440464 disconnected
+2025-06-10 16:07:18,531 - f5_tts - INFO - Client 2918970698944 connected
+2025-06-10 16:07:21,600 - f5_tts - INFO - Sent 'talking' message to client 2918970698944
+2025-06-10 16:07:31,107 - f5_tts - INFO - Sent 'done' message to client 2918970698944
+2025-06-10 16:07:43,573 - f5_tts - INFO - Sent 'talking' message to client 2918970698944
+2025-06-10 16:07:52,331 - f5_tts - INFO - Sent 'done' message to client 2918970698944
+2025-06-10 16:08:11,502 - f5_tts - INFO - Sent 'talking' message to client 2918970698944
+2025-06-10 16:08:21,794 - f5_tts - INFO - Sent 'done' message to client 2918970698944
+2025-06-10 16:08:36,349 - f5_tts - INFO - Sent 'talking' message to client 2918970698944
+2025-06-10 16:08:39,605 - f5_tts - INFO - Sent 'done' message to client 2918970698944
+2025-06-10 16:08:50,646 - f5_tts - INFO - Sent 'talking' message to client 2918970698944
+2025-06-10 16:08:55,234 - f5_tts - INFO - Sent 'done' message to client 2918970698944
+2025-06-10 16:09:29,895 - f5_tts - INFO - Client 2918970698944 should reconnect from their end
+2025-06-10 16:09:29,895 - f5_tts - INFO - Client 2918970698944 disconnected
+2025-06-10 16:13:46,325 - f5_tts - INFO - Client 2918970691024 connected
+2025-06-10 16:13:49,623 - f5_tts - INFO - Sent 'talking' message to client 2918970691024
+2025-06-10 16:13:52,886 - f5_tts - INFO - Sent 'done' message to client 2918970691024
+2025-06-10 16:14:37,332 - f5_tts - INFO - Client 2918970691024 should reconnect from their end
+2025-06-10 16:14:37,332 - f5_tts - INFO - Client 2918970691024 disconnected
+2025-06-11 10:20:43,827 - f5_tts - INFO - Initializing TTS model (F5TTS_Base)...
+2025-06-11 10:20:43,827 - f5_tts - INFO - Using device: cuda
+2025-06-11 10:20:43,828 - f5_tts - INFO - CUDA available: True
+2025-06-11 10:20:43,828 - f5_tts - INFO - CUDA version: 12.8
+2025-06-11 10:20:43,828 - f5_tts - INFO - Device count: 1
+2025-06-11 10:20:43,832 - f5_tts - INFO - Current device: 0
+2025-06-11 10:20:43,832 - f5_tts - INFO - Device name: NVIDIA GeForce RTX 5080
+2025-06-11 10:20:47,723 - f5_tts - INFO - F5TTS_Base model loaded successfully
+2025-06-11 10:20:47,723 - f5_tts - INFO - Model configuration loaded and verified
+2025-06-11 10:20:47,724 - f5_tts - INFO - Model device: cuda:0
+2025-06-11 10:20:47,724 - f5_tts - INFO - Vocoder device: cuda:0
+2025-06-11 10:20:47,724 - f5_tts - INFO - Model memory allocated: 700.28 MB
+2025-06-11 10:20:47,725 - f5_tts - INFO - Model memory cached: 732.00 MB
+2025-06-11 10:20:47,730 - f5_tts - INFO - Successfully loaded custom configuration
+2025-06-11 10:20:48,066 - f5_tts - INFO - Client 2839512247680 connected
+2025-06-11 10:20:53,583 - f5_tts - INFO - Sent 'talking' message to client 2839512247680
+2025-06-11 10:20:56,400 - f5_tts - INFO - Sent 'done' message to client 2839512247680
+2025-06-11 10:21:21,845 - f5_tts - INFO - Sent 'talking' message to client 2839512247680
+2025-06-11 10:21:25,291 - f5_tts - INFO - Sent 'done' message to client 2839512247680
+2025-06-11 10:21:42,337 - f5_tts - INFO - Sent 'talking' message to client 2839512247680
+2025-06-11 10:21:58,109 - f5_tts - INFO - Sent 'done' message to client 2839512247680
+2025-06-11 10:22:09,256 - f5_tts - INFO - Sent 'talking' message to client 2839512247680
+2025-06-11 10:22:17,710 - f5_tts - INFO - Sent 'done' message to client 2839512247680
+2025-06-11 10:22:41,694 - f5_tts - INFO - Sent 'talking' message to client 2839512247680
+2025-06-11 10:23:08,250 - f5_tts - INFO - Sent 'done' message to client 2839512247680
+2025-06-11 10:23:21,179 - f5_tts - INFO - Sent 'talking' message to client 2839512247680
+2025-06-11 10:23:26,712 - f5_tts - INFO - Sent 'done' message to client 2839512247680
+2025-06-11 10:24:00,436 - f5_tts - INFO - Client 2839512247680 should reconnect from their end
+2025-06-11 10:24:00,437 - f5_tts - INFO - Client 2839512247680 disconnected
+2025-06-11 12:27:03,324 - f5_tts - INFO - Client 2839512875088 connected
+2025-06-11 12:27:06,213 - f5_tts - INFO - Sent 'talking' message to client 2839512875088
+2025-06-11 12:27:12,649 - f5_tts - INFO - Sent 'done' message to client 2839512875088
+2025-06-11 12:27:26,490 - f5_tts - INFO - Sent 'talking' message to client 2839512875088
+2025-06-11 12:27:30,166 - f5_tts - INFO - Sent 'done' message to client 2839512875088
+2025-06-11 12:28:14,394 - f5_tts - INFO - Client 2839512875088 should reconnect from their end
+2025-06-11 12:28:14,394 - f5_tts - INFO - Client 2839512875088 disconnected
+2025-06-11 12:33:02,645 - f5_tts - INFO - Client 2839512885168 connected
+2025-06-11 12:33:05,832 - f5_tts - INFO - Sent 'talking' message to client 2839512885168
+2025-06-11 12:33:14,530 - f5_tts - INFO - Sent 'done' message to client 2839512885168
+2025-06-11 12:33:30,339 - f5_tts - INFO - Sent 'talking' message to client 2839512885168
+2025-06-11 12:33:52,477 - f5_tts - INFO - Sent 'done' message to client 2839512885168
+2025-06-11 12:34:05,319 - f5_tts - INFO - Sent 'talking' message to client 2839512885168
+2025-06-11 12:34:14,247 - f5_tts - INFO - Sent 'done' message to client 2839512885168
+2025-06-11 12:34:28,448 - f5_tts - INFO - Sent 'talking' message to client 2839512885168
+2025-06-11 12:34:36,288 - f5_tts - INFO - Sent 'done' message to client 2839512885168
+2025-06-11 12:35:16,507 - f5_tts - INFO - Client 2839512885168 should reconnect from their end
+2025-06-11 12:35:16,508 - f5_tts - INFO - Client 2839512885168 disconnected

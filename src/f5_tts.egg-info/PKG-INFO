@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: f5-tts
-Version: 1.1.4
+Version: 1.1.5
 Summary: F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 License: MIT License
 Project-URL: Homepage, https://github.com/josepheudave/F5-TTS
@@ -9,7 +9,7 @@ Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python :: 3
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: accelerate>=0.33.0
+Requires-Dist: accelerate!=1.7.0,>=0.33.0
 Requires-Dist: bitsandbytes>0.37.0; platform_machine != "arm64" and platform_system != "Darwin"
 Requires-Dist: cached_path
 Requires-Dist: click>=8.2.0
